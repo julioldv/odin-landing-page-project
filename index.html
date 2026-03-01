@@ -8,7 +8,7 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="container">
         <div class="header-logo">Header Logo</div>
         <ul>
           <li><a href="#">header link one</a></li>
@@ -20,70 +20,77 @@
 
     <div class="content">
       <div class="hero">
-        <div class="hero-information">
-          <h1>This website is awesome</h1>
-          <p>
-            This website has some subtext that goes here under the main title.
-            It's a smaller font and the color is lower contrast
-          </p>
-          <button>Sign up</button>
-        </div>
-        <div class="hero-img-placeholder">
-          This is a placeholder for an image
+        <div class="hero-inner container">
+          <div class="hero-information">
+            <h1>This website is awesome</h1>
+            <p>
+              This website has some subtext that goes here under the main title.
+              It's a smaller font and the color is lower contrast
+            </p>
+            <button class="btn">Sign up</button>
+          </div>
+          <div class="hero-img-placeholder">
+            This is a placeholder for an image
+          </div>
         </div>
       </div>
 
       <div class="second-section">
-        <h2>Some random information</h2>
+        <div class="container">
+          <h2>Some random information</h2>
 
-        <div class="cards-container">
-          <div class="card">
-            <div class="img-container"></div>
-            <p>this is some subtext under an ilustration of image</p>
-          </div>
+          <div class="cards-container">
+            <div class="card">
+              <div class="img-container"></div>
+              <p>this is some subtext under an ilustration of image</p>
+            </div>
 
-          <div class="card">
-            <div class="img-container"></div>
-            <p>this is some subtext under an ilustration of image</p>
-          </div>
+            <div class="card">
+              <div class="img-container"></div>
+              <p>this is some subtext under an ilustration of image</p>
+            </div>
 
-          <div class="card">
-            <div class="img-container"></div>
-            <p>this is some subtext under an ilustration of image</p>
-          </div>
+            <div class="card">
+              <div class="img-container"></div>
+              <p>this is some subtext under an ilustration of image</p>
+            </div>
 
-          <div class="card">
-            <div class="img-container"></div>
-            <p>this is some subtext under an ilustration of image</p>
+            <div class="card">
+              <div class="img-container"></div>
+              <p>this is some subtext under an ilustration of image</p>
+            </div>
           </div>
         </div>
       </div>
 
       <div class="quote-section">
-        <div class="quote">
-          <div>
+        <div class="quote container">
+          <p class="quote-text">
             This is an inspiring quote, or a testimonial from a customer. Maybe
             it's just filling up space, or maybe people will actually read it.
             Who knows? All I know is that it looks nice.
-          </div>
-          <div>-Thor, God of Thunder</div>
+          </p>
+          <p class="quote-author">-Thor, God of Thunder</p>
         </div>
       </div>
 
       <div class="forth-section">
-        <div class="call-to-action">
-          <div>
-            <h2>Call to action! It's time!</h2>
-            <p>
-              Sing up for our product by clicking that button right over there!
-            </p>
-          </div>
+        <div class="container">
+          <div class="call-to-action">
+            <div class="cta-text">
+              <h2>Call to action! It's time!</h2>
+              <p>
+                Sing up for our product by clicking that button right over
+                there!
+              </p>
+            </div>
 
-          <button>Sign up</button>
+            <button class="btn btn-outline">Sign up</button>
+          </div>
         </div>
       </div>
     </div>
 
-    <footer>Copyright C The Odin Project 2021</footer>
+    <footer>Copyright @julioldv 2026</footer>
   </body>
 </html>
